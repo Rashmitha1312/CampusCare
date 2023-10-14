@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/class4"
+    tools:context=".dep_emailtemplate">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sender"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:text="To"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:id="@+id/reciever1"
+                android:background="#ffffff"
+                android:hint="Reciever mail"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/sender2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:text="Subject"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:id="@+id/reciever2"
+                android:background="#ffffff"
+                android:hint=""
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/sender3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:text="Message"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="413dp"
+                android:layout_height="647dp"
+                android:background="#80F4F4F2"
+                android:textAlignment="textStart"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.147" />
+
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#881C1C"
+                android:text="SEND"
+                android:textColor="#F6F3F3"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.992" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

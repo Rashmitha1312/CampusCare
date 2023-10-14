@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/class4">
+<!--        tools:context=".maintenancepage">-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#751919"
+        android:text="PROBLEM RESOLVED"
+        android:textColor="#F1ECEC" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#00FFFFFF"
+        android:text="SEND RESPONSE THROUGH MAIL"
+        android:textColor="#BC2E2E"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

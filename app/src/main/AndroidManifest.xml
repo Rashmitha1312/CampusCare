@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.classroom">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Classroom"
+        tools:targetApi="31">
+        <activity
+            android:name=".responseemail"
+            android:exported="false" />
+        <activity
+            android:name=".washroom_email"
+            android:exported="false" />
+        <activity
+            android:name=".washroomsendreq"
+            android:exported="false" />
+        <activity
+            android:name=".classsendrequest"
+            android:exported="false" />
+        <activity
+            android:name=".depsendreq"
+            android:exported="false" />
+        <activity
+            android:name=".dep_emailtemplate"
+            android:exported="false" />
+        <activity
+            android:name=".restroom"
+            android:exported="false" />
+        <activity
+            android:name=".laboratory"
+            android:exported="false" />
+        <activity
+            android:name=".washroom"
+            android:exported="false" />
+        <activity
+            android:name=".seminarhall"
+            android:exported="false" />
+        <activity
+            android:name=".department"
+            android:exported="false" />
+        <activity
+            android:name=".studentsignup"
+            android:exported="false" />
+        <activity
+            android:name=".maintenancepage"
+            android:exported="false" />
+        <activity
+            android:name=".maintenancesignup"
+            android:exported="false" />
+        <activity
+            android:name=".maintenancelogin"
+            android:exported="false" />
+        <activity
+            android:name=".emailtemplate"
+            android:exported="false" />
+        <activity
+            android:name=".mainpage2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".bottommenu"
+            android:exported="false" />
+        <activity
+            android:name=".student"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".signuppage"
+            android:exported="false" />
+        <activity
+            android:name=".adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".classroompage"
+            android:exported="false" />
+        <activity
+            android:name=".mainpage"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".stulogin"
+            android:exported="false" />
+        <activity
+            android:name=".admins"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

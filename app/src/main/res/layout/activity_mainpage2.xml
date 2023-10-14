@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerlayout"
+    tools:context=".mainpage2"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+<!--    <include layout="@layout/content_layout"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_width="match_parent"-->
+<!--        />-->
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:id="@+id/navigationview"
+        app:headerLayout="@layout/headerfile"
+        app:menu="@menu/sidemenu"
+        android:layout_gravity="start">
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/class4"
+            android:visibility="visible"
+            tools:context=".mainpage2">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#352F2F"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:title="@string/toolbar"
+                android:titleMarginStart="10dp"
+                app:titleTextColor="#FBF9F9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="300dp"
+                android:layout_height="111dp"
+                android:background="#F2F2D8"
+                android:text="MAINTENANCE REQUEST"
+                android:textColor="#551D1D"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/button10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.549"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.861" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="294dp"
+                android:layout_height="118dp"
+                android:background="#F2F2D8"
+                android:text="ADD STUDENT"
+                android:textColor="#551D1D"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.521"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.533" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="113dp"
+                android:layout_height="73dp"
+                android:background="#781E1E"
+                android:text="EXIT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.759" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

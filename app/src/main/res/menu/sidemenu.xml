@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/home" />
+
+
+        <item android:title="@string/authentication" >
+
+
+            <menu>
+                <item
+                    android:id="@+id/nav_login_menu"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Login"
+                    tools:ignore="HardcodedText" />
+                <item
+                    android:id="@+id/nav_logout_menu"
+                    android:icon="@drawable/ic_baseline_dashboard_24"
+                    android:title="Logout"
+                    tools:ignore="HardcodedText" />
+            </menu>
+        </item>
+
+        <item android:title="@string/sharing" >
+
+
+            <menu>
+                <item
+                    android:id="@+id/nav_share_menu"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share"
+                    tools:ignore="HardcodedText" />
+                <item
+                    android:id="@+id/nav_rate_menu"
+                    android:icon="@drawable/ic_baseline_dashboard_24"
+                    android:title="Rate us"
+                    tools:ignore="HardcodedText" />
+            </menu>
+
+        </item>
+    </group>
+</menu>

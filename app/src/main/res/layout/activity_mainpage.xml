@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/class4"
+    tools:context=".mainpage">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/backbtn"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_baseline_arrow_back2_24"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.022"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/toolbar"
+                app:layout_constraintVertical_bias="0.333" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="314dp"
+                android:layout_height="47dp"
+                android:layout_margin="50dp"
+                android:text="MAINTENANCE REQUEST"
+                android:textAlignment="center"
+                android:textColor="#950909"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.268" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:background="#F2F2D8"
+                android:text="CLASSROOM"
+                android:textAlignment="center"
+                android:textColor="#781E1E"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.268" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:text="DEPARTMENT"
+                android:background="#F2F2D8"
+                android:textColor="#781E1E"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.478" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:text="WASHROOM"
+                android:background="#F2F2D8"
+                android:textColor="#781E1E"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.478" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="SEMINAR HALL"
+                android:background="#F2F2D8"
+                android:textColor="#781E1E"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.578"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.973" />
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:text="LABORATORY"
+                android:background="#F2F2D8"
+                android:textColor="#781E1E"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.478" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:text="RESTROOM"
+                android:background="#F2F2D8"
+                android:textColor="#781E1E"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.72" />
+
+
+            <!-- Add more buttons here -->
+
+        </LinearLayout>
+    </ScrollView>
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/frameLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        app:layout_constraintStart_toStartOf="parent">-->
+
+<!--    </FrameLayout>-->
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottomNavigationView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="1dp"-->
+<!--        android:layout_marginBottom="1dp"-->
+<!--        android:background="#F2F4D8"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/frameLayout"-->
+<!--        app:menu="@menu/button_nav_menu"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

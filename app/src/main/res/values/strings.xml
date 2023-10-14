@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">classroom</string>
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toolbar" />
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="authentication">Authentication</string>
+    <string name="sharing">Sharing</string>
+</resources>

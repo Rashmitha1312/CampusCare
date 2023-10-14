@@ -1,0 +1,4 @@
+<style name="BottomMenuButton" parent="Widget.AppCompat.Button.Borderless">
+    <item name="android:textColor">@color/bottom_menu_button_text_color</item>
+    <item name="android:textSize">12sp</item>
+</style>

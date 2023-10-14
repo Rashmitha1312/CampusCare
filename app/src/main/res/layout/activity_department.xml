@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/class4"
+    tools:context=".department">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/backbtn"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_baseline_arrow_back2_24"
+                app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.022"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/toolbar"
+                app:layout_constraintVertical_bias="0.333" />
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#F4E4A1"
+                android:hint="Enter your name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#F4E4A1"
+                android:hint="Enter your email"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/section"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#F4E4A1"
+                android:hint="Enter your section"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/roomno"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#F4E4A1"
+                android:hint="Enter class room number"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="#F4E4A1"
+                android:text="Select the issues"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#80F6FAD8"
+                android:text="The projector does not turn on or display properly"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkbox2"
+                android:layout_width="424dp"
+                android:layout_height="99dp"
+                android:background="#80F6FAD8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="The chalk is depleted or unavailable" />
+
+            <CheckBox
+                android:id="@+id/checkbox3"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#80F6FAD8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Difficulty in opening or closing the door" />
+            <CheckBox
+                android:id="@+id/checkbox4"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#80F6FAD8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="The fan is malfunctioning, causing inadequate air circulation or noise" />
+            <CheckBox
+                android:id="@+id/checkbox5"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#80F6FAD8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="The tubelight flickers or does not illuminate" />
+            <CheckBox
+                android:id="@+id/checkbox6"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#80F6FAD8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="The window is broken or unable to open" />
+
+            <CheckBox
+                android:id="@+id/checkbox7"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#80F6FAD8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Floor is not clean" />
+
+            <CheckBox
+                android:id="@+id/checkbox8"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#80F6FAD8"
+                android:text="The tables are broken or in poor condition"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/checkbox9"
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#80F6FAD8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="The curtains are torn" />
+
+
+            <EditText
+                android:id="@+id/msg"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="#80F6FAD8"
+                android:hint="other issues"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:id="@+id/button"
+                android:background="#751717"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="NEXT"/>
+
+
+            <!-- Add more checkboxes here -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
